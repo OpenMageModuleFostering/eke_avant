@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eke_Avant</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Quickly integrate AvantLink affiliate tracking.</summary>
+    <description>This module adds the AvantLink affiliate tracking JavaScript and Checkout tracking script. </description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Eke Digital</name><user>ekedigital</user><email>dane@ekedigital.com</email></author></authors>
+    <date>2016-10-10</date>
+    <time>17:10:31</time>
+    <contents><target name="magecommunity"><dir name="Eke"><dir name="Avant"><dir name="Block"><dir name="Adminhtml"><file name="About.php" hash="de03bfa6259b5847ffc06da0b3363a74"/></dir></dir><dir name="Helper"><file name="Data.php" hash="690430edf2ccbb12e178f55fb8d17fee"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9c9d2aa7c0bac2d502b746c74746a085"/><file name="config.xml" hash="e0bd399b2a51fb7beb86d8e45072282b"/><file name="system.xml" hash="6b60208dab947e0499e3e10ac4d0cb36"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="eke"><dir name="avant"><file name="checkout.phtml" hash="4d37b17e3678707e8aece8dc5be8b030"/><file name="default.phtml" hash="82a8fb850b9af7b5667a062468129fb5"/></dir></dir></dir><dir name="layout"><file name="eke_avant.xml" hash="3fea8ac375c512e040d500a9a30a3082"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eke_Avant.xml" hash="b7ea456befb56da311a5321ff4b13776"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Helper_Abstract</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>
