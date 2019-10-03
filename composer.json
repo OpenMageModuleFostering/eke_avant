@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Eke_Avant",
+    "name": "openmage-module-fostering\/eke_avant",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Quickly integrate AvantLink affiliate tracking.",
     "authors": [
